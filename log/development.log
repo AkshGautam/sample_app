@@ -1,0 +1,7 @@
+Started GET "/" for 127.0.0.1 at 2016-09-29 22:08:53 +0530
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 65ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
