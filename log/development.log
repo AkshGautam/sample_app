@@ -5,3 +5,234 @@ Processing by ApplicationController#hello as HTML
 Completed 200 OK in 65ms (Views: 48.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-09-29 22:37:44 +0530
+  
+LoadError (cannot load such file -- /home/aksh/ronrails/workspace/sample_app/config/routes.rb):
+  
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:287:in `load'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:287:in `block in load'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:259:in `load_dependency'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:287:in `load'
+railties (5.0.0.1) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+railties (5.0.0.1) lib/rails/application/routes_reloader.rb:40:in `each'
+railties (5.0.0.1) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+railties (5.0.0.1) lib/rails/application/routes_reloader.rb:16:in `reload!'
+railties (5.0.0.1) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+activesupport (5.0.0.1) lib/active_support/file_update_checker.rb:77:in `execute'
+railties (5.0.0.1) lib/rails/application/routes_reloader.rb:7:in `execute'
+railties (5.0.0.1) lib/rails/application/finisher.rb:132:in `block (2 levels) in <module:Finisher>'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:396:in `instance_exec'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:396:in `block in make_lambda'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:169:in `block (2 levels) in halting'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:547:in `block (2 levels) in default_terminator'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:546:in `catch'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:546:in `block in default_terminator'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:170:in `block in halting'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:454:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:454:in `each'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:454:in `call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_run_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+activesupport (5.0.0.1) lib/active_support/execution_wrapper.rb:99:in `run!'
+activesupport (5.0.0.1) lib/active_support/reloader.rb:113:in `run!'
+activesupport (5.0.0.1) lib/active_support/execution_wrapper.rb:61:in `block in run!'
+activesupport (5.0.0.1) lib/active_support/execution_wrapper.rb:58:in `tap'
+activesupport (5.0.0.1) lib/active_support/execution_wrapper.rb:58:in `run!'
+activesupport (5.0.0.1) lib/active_support/reloader.rb:59:in `run!'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:10:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.2ms)
+  Rendering /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendering /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (71.1ms)
+  Rendered /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (81.9ms)
+
+ActionView::Template::Error: can not load translations from /home/aksh/ronrails/workspace/sample_app/config/locales/en.yml: #<Errno::ENOENT: No such file or directory @ rb_sysopen - /home/aksh/ronrails/workspace/sample_app/config/locales/en.yml>
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/i18n-0.7.0/lib/i18n/backend/base.rb:184:in `rescue in load_yml'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/i18n-0.7.0/lib/i18n/backend/base.rb:181:in `load_yml'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/i18n-0.7.0/lib/i18n/backend/base.rb:165:in `load_file'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/i18n-0.7.0/lib/i18n/backend/base.rb:15:in `block in load_translations'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/i18n-0.7.0/lib/i18n/backend/base.rb:15:in `each'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/i18n-0.7.0/lib/i18n/backend/base.rb:15:in `load_translations'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/i18n-0.7.0/lib/i18n/backend/simple.rb:57:in `init_translations'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/i18n-0.7.0/lib/i18n/backend/simple.rb:40:in `available_locales'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/i18n-0.7.0/lib/i18n/config.rb:43:in `available_locales'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/i18n-0.7.0/lib/i18n/config.rb:49:in `available_locales_set'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/i18n-0.7.0/lib/i18n.rb:278:in `locale_available?'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/i18n-0.7.0/lib/i18n.rb:284:in `enforce_available_locales!'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/i18n-0.7.0/lib/i18n.rb:151:in `translate'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/helpers/translation_helper.rb:90:in `translate'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/view.rb:34:in `t'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb:95:in `__home_aksh__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___973753521134855959_27188140'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/template.rb:158:in `block in render'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/notifications.rb:166:in `instrument'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/template.rb:348:in `instrument'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/template.rb:156:in `render'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/abstract_renderer.rb:42:in `block in instrument'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/notifications.rb:164:in `block in instrument'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/notifications.rb:164:in `instrument'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/abstract_renderer.rb:41:in `instrument'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/template_renderer.rb:14:in `render'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/renderer.rb:23:in `render'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/helpers/rendering_helper.rb:32:in `render'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/view.rb:17:in `render_javascript'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb:3:in `__home_aksh__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_index_html_erb___2682400641782373287_27282220'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/template.rb:158:in `block in render'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/notifications.rb:166:in `instrument'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/template.rb:348:in `instrument'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/template.rb:156:in `render'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/abstract_renderer.rb:42:in `block in instrument'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/notifications.rb:164:in `block in instrument'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/notifications.rb:164:in `instrument'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/abstract_renderer.rb:41:in `instrument'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/template_renderer.rb:14:in `render'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/renderer/renderer.rb:23:in `render'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0.1/lib/action_view/helpers/rendering_helper.rb:32:in `render'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/template.rb:20:in `render'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/middleware.rb:36:in `block in call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/middleware.rb:18:in `catch'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/web-console-3.1.1/lib/web_console/middleware.rb:18:in `call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:36:in `call_app'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:24:in `block in call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:70:in `block in tagged'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:70:in `tagged'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:24:in `call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/sprockets-rails-3.2.0/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/rack-2.0.1/lib/rack/method_override.rb:22:in `call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/rack-2.0.1/lib/rack/runtime.rb:22:in `call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/puma-3.4.0/lib/puma/configuration.rb:224:in `call'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/puma-3.4.0/lib/puma/server.rb:569:in `handle_request'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/puma-3.4.0/lib/puma/server.rb:406:in `process_client'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/puma-3.4.0/lib/puma/server.rb:271:in `block in run'
+	from /home/aksh/.rvm/gems/ruby-2.3.1/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-09-29 22:38:20 +0530
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1878ms (Views: 1845.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-09-29 23:21:59 +0530
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 717ms (Views: 692.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-09-29 23:22:40 +0530
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-09-29 23:26:21 +0530
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2016-09-29 23:26:26 +0530
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2016-09-29 23:50:48 +0530
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 580ms (Views: 578.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2016-09-30 01:15:08 +0530
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 206ms (Views: 204.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2016-09-30 01:16:34 +0530
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2016-09-30 01:16:35 +0530
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-30 01:16:39 +0530
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
